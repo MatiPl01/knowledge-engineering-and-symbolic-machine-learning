@@ -3,8 +3,8 @@ from ex4.solution4 import detect_cov, detect_ocsvm, detect_iforest, detect_lof
 from utils import report_results_2d
 
 # load data
-train_data = np.genfromtxt("ex4_train_data.csv")
-train_labels = np.genfromtxt("ex4_train_labels.csv")
+train_data = np.genfromtxt("ex4/ex4_train_data.csv")
+train_labels = np.genfromtxt("ex4/ex4_train_labels.csv")
 
 outliers_fraction = np.count_nonzero(train_labels) / len(train_labels)
 
